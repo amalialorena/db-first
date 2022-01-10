@@ -6,12 +6,12 @@ body type:          varchar (40),
 brand:              varchar (30),
 model:              varchar (30),
 first registration: year,
-km:                 int,
+km:                 decimal(6,2),
 fuel type:          varchar (20),
 transmission system:varchar (20),
-price:              int,
+price:              decimal(6,2),
 color:              varchar (20),
 currency:           varchar (20),
-number of digits:   tinyint
+
 
 
